@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer List</title>
+    <link rel="stylesheet" href="customerList.css">
+</head>
+<body>
+    <div class="header" >
+        <button id="add">Add Customer</button>
+        <div>
+
+            <div class="dropdown">
+                
+                <button id="dropbtn" class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                  <a href="#">FirstName</a>
+                  <a href="#">LastName</a>
+                  <a href="#">Email</a>
+                  <a href="#">Phone</a>
+                  <a href="#">Id</a>
+                </div>
+              </div>
+        <input type="text" name="Search" id="searchbar">
+        <button id="search">Search</button>
+    </div>
+        <button id="sync">Sync</button>
+    </div>
+    <div id="table">
+    <table id="myTable" border="1">
+        <thead>
+            <tr id="tableHeader"></tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+</div>
+    <script src="customerList.js"></script>
+</body>
+</html>
